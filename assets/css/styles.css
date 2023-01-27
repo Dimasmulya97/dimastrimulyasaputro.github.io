@@ -189,7 +189,7 @@ img {
 }
 
 .nav__logo:hover {
-    color: var(--first-color);
+    color: blue;
 }
 
 .nav_toggle {
@@ -225,12 +225,12 @@ img {
     flex-direction: column;
     align-items: center;
     font-size: var(--small-font-size);
-    color: var(--title-color);
+    color: blue;
     font-weight: var(--font-medium);
 }
 
 .nav__link:hover {
-    color: var(--first-color);
+    color: aquamarine;
 }
 
 .nav__icon {
@@ -243,11 +243,11 @@ img {
     bottom: .5rem;
     font-size: 1.5rem;
     cursor: pointer;
-    color: var(--first-color);
+    color: aqua;
 }
 
 .nav__close:hover {
-    color: var(--first-color-alt);
+    color: aquamarine;
 }
 /* show menu */
 .show-menu {
@@ -256,7 +256,7 @@ img {
 
 /* Active link */
 .active-link {
-    color: var(--first-color);
+    color: aquamarine;
 }
 
 /* Change background header */
@@ -378,6 +378,7 @@ img {
 .button--flex {
     display: inline-flex;
     align-items: center;
+    background-color: blue;
 }
 
 .button__small {
@@ -492,7 +493,7 @@ img {
 }
 
 .skills__bar {
-    background-color: var(--first-color-lighter);
+    background-color: aqua;
 }
 
 .skills__percentage {
@@ -515,36 +516,45 @@ img {
 
 .skills__java {
     width: 80%;
+    background-color: blue;
 }
 .skills__sql {
     width: 80%;
+    background-color: blue;
 }
 
 .skills__springboot{
+    background-color: blue;
     width: 80%;
 }
 .skills__springjpa{
+    background-color: blue;
     width: 80%;
 }
 
 .skills__hibernate{
     width: 75%;
+    background-color: blue;
 }
 
 .skills__zkoss{
     width: 50%;
+    background-color: blue;
 }
 
 .skills__MyBatis{
     width: 65%;
+    background-color: blue;
 }
 
 .skills__PostgreSQL{
     width: 70%;
+    background-color: blue;
 }
 
 .skills__oracle{
-    width: 65%
+    width: 65%;
+    background-color: blue;
 }
 
 .skills__figma {
@@ -618,7 +628,7 @@ img {
     display: inline-block;
     width: 13px;
     height: 13px;
-    background-color: var(--first-color);
+    background-color: blue;
     border-radius: 50%;
 }
 
@@ -626,7 +636,7 @@ img {
     display: block;
     width: 1px;
     height: 100%;
-    background-color: var(--first-color);
+    background-color: blue;
     transform: translate(6px, -7px);
 }
 
@@ -924,7 +934,7 @@ img {
 }
 
 .footer__bg {
-    background-color: var(--first-color-second);
+    background-color: blue;
     padding: 2rem 0 3rem;
 }
 
@@ -959,7 +969,7 @@ img {
 .footer__copy {
     font-size: var(--small-font-size);
     text-align: center;
-    color: var(--text-color-light);
+    color: white;
     margin-top: var(--mb-3);
 }
 
@@ -974,7 +984,7 @@ img {
     position: fixed;
     right: 1rem;
     bottom: -20%;
-    background-color: var(--first-color);
+    background-color: blue;
     opacity: .8;
     padding: 0 .3rem;
     border-radius: .4rem;
