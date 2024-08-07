@@ -792,7 +792,7 @@ strong {
 }
 
 .skills__java {
-  width: 80%;
+  width: 75%;
   background-color: blue;
 }
 .skills__sql {
@@ -802,11 +802,11 @@ strong {
 
 .skills__springboot{
   background-color: blue;
-  width: 80%;
+  width: 70%;
 }
 .skills__springjpa{
   background-color: blue;
-  width: 80%;
+  width: 70%;
 }
 
 .skills__hibernate{
@@ -820,7 +820,7 @@ strong {
 }
 
 .skills__MyBatis{
-  width: 65%;
+  width: 80%;
   background-color: blue;
 }
 
@@ -834,11 +834,35 @@ strong {
   background-color: blue;
 }
 .skills__jsp{
-  width: 75%;
+  width: 65%;
   background-color: blue;
 }
 .skills__glassfish{
   width: 55%;
+  background-color: blue;
+}
+
+.skills__docker{
+  width: 70%;
+  background-color: blue;
+}
+.skills__jasper{
+  width: 70%;
+  background-color: blue;
+}
+
+.skills__github{
+  width: 75%;
+  background-color: blue;
+}
+
+.skills__gitlab{
+  width: 80%;
+  background-color: blue;
+}
+
+.skills__bit{
+  width: 80%;
   background-color: blue;
 }
 
@@ -920,6 +944,12 @@ strong {
   margin-bottom: 5px;
 }
 
+/*---------------------------------------
+  REEVIEW              
+-----------------------------------------*/
+.review {
+  background: var(--section-bg-color);
+}
 
 /*---------------------------------------
   CONTACT              
