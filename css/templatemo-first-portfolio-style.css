@@ -851,6 +851,11 @@ strong {
   background-color: blue;
 }
 
+.skills__aws{
+  width: 65%;
+  background-color: blue;
+}
+
 .skills__github{
   width: 75%;
   background-color: blue;
